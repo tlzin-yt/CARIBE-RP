@@ -84,34 +84,37 @@
 </head>
 <body class="bg-gray-950 text-gray-100 min-h-screen flex flex-col selection:bg-blue-600 selection:text-white">
 
-  <header class="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-blue-900/30">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <!-- A tua logo em imagem (altera o caminho se necessário) -->
-                <img src="img/logo.png" alt="Logo Tropa do Israel" class="w-10 h-10 object-contain rounded-lg shadow-lg shadow-blue-500/30">
-                </div>
-                <div>
-                    <span class="heading-font text-xl sm:text-2xl font-bold tracking-wider text-white block">TROPA DO ISRAEL</span>
-                    <span class="text-xs text-blue-400 font-medium tracking-widest uppercase">Família Israel • GTA RP</span>
-                </div>
-            </div>
-
-            <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
-                <a href="#sobre" class="text-gray-300 hover:text-cyan-400 transition-colors">Sobre</a>
-                <a href="#historia" class="text-gray-300 hover:text-cyan-400 transition-colors">História</a>
-                <a href="#hierarquia" class="text-gray-300 hover:text-cyan-400 transition-colors">Hierarquia</a>
-                <a href="#regras" class="text-gray-300 hover:text-cyan-400 transition-colors">Regras & Punições</a>
-                <a href="#cidade" class="text-gray-300 hover:text-cyan-400 transition-colors">Cidade & Local</a>
-            </nav>
-
-            <div class="flex items-center space-x-3">
-                <a href="https://discord.gg/NZG9a6hKmD" target="_blank" class="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white px-4 py-2 rounded-xl font-semibold text-sm shadow-lg shadow-blue-600/30 flex items-center space-x-2 transition-all transform hover:scale-105">
-                    <i class="fa-brands fa-discord text-base"></i>
-                    <span>Discord</span>
-                </a>
+ <header class="fixed top-0 left-0 right-0 z-50 glass-panel border-b border-blue-900/30">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+        
+        <!-- Lado esquerdo: Logo e Título -->
+        <div class="flex items-center space-x-3">
+            <img src="img/logo.jpg" alt="Logo Tropa do Israel" class="w-10 h-10 object-contain rounded-lg shadow-lg shadow-blue-500/30">
+            <div>
+                <span class="heading-font text-xl font-bold tracking-wider block text-white">TROPA DO ISRAEL</span>
+                <span class="text-xs text-caribe-accent font-medium tracking-wide">FAMÍLIA ISRAEL • GTA RP</span>
             </div>
         </div>
-    </header>
+
+        <!-- Lado direito: Links de navegação e Discord (podes ajustar conforme o teu menu original) -->
+        <div class="hidden md:flex items-center space-x-6">
+            <a href="#sobre" class="text-gray-300 hover:text-caribe-accent transition-colors text-sm font-medium">Sobre</a>
+            <a href="#historia" class="text-gray-300 hover:text-caribe-accent transition-colors text-sm font-medium">História</a>
+            <a href="#hierarquia" class="text-gray-300 hover:text-caribe-accent transition-colors text-sm font-medium">Hierarquia</a>
+            <a href="#regras" class="text-gray-300 hover:text-caribe-accent transition-colors text-sm font-medium">Regras & Punições</a>
+            <a href="#cidade" class="text-gray-300 hover:text-caribe-accent transition-colors text-sm font-medium">Cidade & Local</a>
+        </div>
+
+        <!-- Botão Discord -->
+        <div>
+            <a href="https://discord.gg/o-teu-convite" target="_blank" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-xl text-sm font-semibold flex items-center space-x-2 transition-all shadow-lg shadow-blue-600/30">
+                <i class="fa-brands fa-discord"></i>
+                <span>Discord</span>
+            </a>
+        </div>
+
+    </div>
+</header>
 
     <section class="relative min-h-screen hero-bg flex items-center justify-center pt-20 px-4 sm:px-6 lg:px-8 overflow-hidden">
         <div class="absolute inset-0 bg-radial from-transparent via-gray-950/80 to-gray-950 pointer-events-none"></div>
